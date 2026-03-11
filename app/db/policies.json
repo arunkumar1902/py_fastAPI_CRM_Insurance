@@ -1,0 +1,22 @@
+[
+    {
+        "customer_id": "CUST-D9C465FE",
+        "customer_name": "ARUN KUMAR K",
+        "email": "kumar1902002@gmail.com",
+        "policy_type": "health",
+        "provider": "hdfc",
+        "premium_amount": 1200.0,
+        "premium_frequency": "Quarterly",
+        "sum_assured": 120000.0,
+        "payment_mode": "UPI",
+        "start_date": "2025-03-05",
+        "end_date": "2027-03-05",
+        "renewal_date": "2026-03-17",
+        "status": "Active",
+        "nominee_name": "arun",
+        "nominee_relationship": "brother",
+        "nominee_phone": "9876543210",
+        "customer_notes": "customer requested policy document copy",
+        "policy_number": "POL-20260305-0001"
+    }
+]

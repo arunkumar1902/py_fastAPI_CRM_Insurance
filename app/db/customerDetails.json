@@ -1,0 +1,20 @@
+[
+    {
+        "customer_id": "CUST-D9C465FE",
+        "status": "Active",
+        "account_created_on": "2026-03-05",
+        "personal_details": {
+            "customer_name": "ARUN KUMAR K",
+            "gender": "male",
+            "date_of_birth": "2002-05-28",
+            "email": "kumar1902002@gmail.com",
+            "phone": "9876546789"
+        },
+        "address": {
+            "street": "sipcot",
+            "city": "chengalpattu",
+            "state": "Tamilnadu",
+            "pincode": "603103"
+        }
+    }
+]
