@@ -21,6 +21,17 @@ async def get_policy_number():
 async def get_policy_details():
     return await read_data("policies.json")
 
+@router.get("/{id}")
+async def customer_policy_details(id:str):
+    data = await read_data("policies.json")
+    customer_policies = []
+    for policy in data:
+        if policy["customer_id"] == id:
+            customer_policies.append(policy)
+    if customer_policies:
+        return customer_policies
+    return {"message": "Policy Details not found"}
+
 @router.post("/", response_model = PolicyResponse)
 async def post_policy_data(data : PolicyData):
     policy_data = data.model_dump()

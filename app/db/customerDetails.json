@@ -16,5 +16,23 @@
             "state": "Tamilnadu",
             "pincode": "603103"
         }
+    },
+    {
+        "customer_id": "CUST-FE0AD8AC",
+        "status": "Active",
+        "account_created_on": "2026-03-13",
+        "personal_details": {
+            "customer_name": "Pradeep",
+            "gender": "male",
+            "date_of_birth": "2002-05-08",
+            "email": "pradeep@gmail.com",
+            "phone": "9876543211"
+        },
+        "address": {
+            "street": "sipcot",
+            "city": "chengalpattu",
+            "state": "Tamilnadu",
+            "pincode": "603103"
+        }
     }
 ]

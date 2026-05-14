@@ -11,6 +11,14 @@ router = APIRouter(prefix=("/user_details"), tags=["New User"])
 async def get_user_details():
     return await read_data("customerDetails.json")
 
+@router.get("/{id}")
+async def individual_customer_details(id: str):
+    data = await read_data("customerDetails.json")
+    for c in data:
+        if c["customer_id"] == id:
+            return c
+    return {"message": "customer not found"}
+
 @router.post("/", response_model = CustomerResponse)
 async def post_user_details(data : CustomerCreate):
     user_data = await read_data("customerDetails.json")
